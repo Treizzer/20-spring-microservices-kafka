@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviceConsumerApplication<microservice-consumer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservice.consumer.microservice_consumer.MicroserviceConsumerApplication",
+            "projectName": "microservice-consumer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviceProviderApplication<microservice-provider>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservice.provider.microservice_provider.MicroserviceProviderApplication",
+            "projectName": "microservice-provider",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
